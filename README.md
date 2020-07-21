@@ -13,7 +13,7 @@ Let's go !
 ## I. Create a repository on Github and replicate it in local
 First we create from Github a new repository and give it a name. You can choose the name you want, here i called it "FLASK_APP". You can also decide to make it public or not. Here is a snapshot of what you should obtain :
 """"Put image create_new_repository"""""
-![Optional Text](https://github.com/fcmdr/FLASK_APP/edit/master/create_new_repository.png)
+![](create_new_repository.png)
 
 #### Make sure to tick the box "Initialize this repository with a README"
 
