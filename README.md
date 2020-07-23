@@ -59,9 +59,13 @@ Install the Python library Flask :
 Using a text editor like nano (which is already set in Linux) you can create a Python script by typing `nano script_flask.py` containing the Flask application written in Python :
 `nano script_flask.py`
 Inside the script we can fill it with the Python code that will run our Flask application :
-![](images/flask_app_python.png=100x20)
+
+<img src = "images/flask_app_python.png" width = 800>
 First we import Flask from the flask library, then we create an instance of the class Flask then we define a **"route"** that will execute the **"home"** function displaying("Hello World") !
+
+
 After we are done press Ctrl+X and save to exit the nano editor.
+
 We create a requirements file so anybody who wants can replicate our environment and use it :
 `pip3 freeze > requirements.txt`
 
