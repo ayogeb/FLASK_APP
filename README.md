@@ -97,6 +97,6 @@ Remark : The Flask app we have just built is working on our computer in local
 Pushing means publish the work on Github this schema summarize the direction of each git command :
 
 Now we can push our work using the **git push** command :
-![](images/git_push_results.png)
+![](images/git_push_result.png)
 
 ### Congratulations you have now set a Flask application using Linux and Python and published it on GitHub !!!
