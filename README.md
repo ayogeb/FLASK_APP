@@ -12,6 +12,7 @@ Let's go !
 
 ## I. Create a repository on Github and replicate it in local
 First we create from Github a new repository and give it a name. You can choose the name you want, here i called it "FLASK_APP". You can also decide to make it public or not. Here is a snapshot of what you should obtain :
+
 ![](images/create_new_repository.png)
 
 #### Make sure to tick the box "Initialize this repository with a README"
@@ -59,13 +60,9 @@ Install the Python library Flask :
 Using a text editor like nano (which is already set in Linux) you can create a Python script by typing `nano script_flask.py` containing the Flask application written in Python :
 `nano script_flask.py`
 Inside the script we can fill it with the Python code that will run our Flask application :
-
-<img src = "images/flask_app_python.png" width = 800>
+![](images/flask_app_python.png=100x20)
 First we import Flask from the flask library, then we create an instance of the class Flask then we define a **"route"** that will execute the **"home"** function displaying("Hello World") !
-
-
 After we are done press Ctrl+X and save to exit the nano editor.
-
 We create a requirements file so anybody who wants can replicate our environment and use it :
 `pip3 freeze > requirements.txt`
 
@@ -91,6 +88,7 @@ Now we use another git command : The `git status` command we execute it and we o
 You will see that the **image folder**, **the requirements** and the **script_flask** files are in red meaning they are not in the **staging area** nor in the remote github repository. So we put the files in the staging area using the **"git add ."** command (the dot means all files).
 Putting files in the staging area means the modifications are ready to be **"committed"** (or saved) by putting a comment describing the change we have applied thanks to the **git commit** command :
 `git commit -m "Install Python inside a new environment created with virtualenv, create a flask app in Python and save a requirements file`
+
 Result of the **git commit** command :
 ![](images/commit_result.png)
 
